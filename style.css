@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputBox{
+    background-color: aquamarine;
+    width: 220px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inputBox .input{
+   padding: 15px 10px;
+   position:absolute;
+}
+#inputBox .icon{
+   position: relative;
+   margin-left:150px;
+
+}
+
+.eye{
+    opacity: 0;
+}
